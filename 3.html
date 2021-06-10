@@ -1,6 +1,12 @@
 <!doctype html>
 <html>
 <head>
+   <input type="button" value="night" onclick="
+    document.querySelector('head').style.backgroundColor = 'black';
+    document.querySelector('head').style.color = 'white';">
+    <input type="button" value="day" onclick="
+    document.querySelector('head').style.backgroundColor = 'white';
+    document.querySelector('head').style.color = 'black';">
   <title>WEB1 - JavaScript</title>
   <meta charser="utf-8">
   <link rel="stylesheet" href="style.css">
@@ -21,12 +27,6 @@
   </div>
   </div>
     <div id="disqus_thread"></div>
-    <input type="button" value="night" onclick="
-    document.querySelector('body').style.backgroundColor = 'black';
-    document.querySelector('body').style.color = 'white';">
-    <input type="button" value="day" onclick="
-    document.querySelector('body').style.backgroundColor = 'white';
-    document.querySelector('body').style.color = 'black';">
 
   </p>
   </body>
