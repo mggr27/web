@@ -29,6 +29,6 @@ var Links = {
       Body.setColor('black');
       self.value = 'night';
 
-      LinksSetColor('blue');
+      Links.setColor('blue');
     }
   }
