@@ -4,10 +4,9 @@
   <title>WEB1 - Welcome</title>
   <meta charser="utf-8">
   <link rel="stylesheet" href="style.css">
-  <div id="disqus_thread"></div>
-    <input type="button" value="night" onclick="
-    nightDayHandler(this);
-    ">
+  //<div id="disqus_thread"></div>
+    //<input type="button" value="night" onclick="
+   // nightDayHandler(this);">
 </head>
 <body>
   <h1><a href="index.html">WEB</a></h1>
@@ -17,6 +16,58 @@
     <li><a href="2.html">CSS</a></li>
     <li><a href="3.html">JavaScript</a></li>
   </ol>
+     <input id="night_day" type="button" value="night" onclick="
+      var target=document.querySelector('body');
+        if(this.value === 'night') {
+          target.style.backgroundColor='black';
+          target.style.color='white';
+          this.value='day';
+
+          var alist=document.querySelectorAll('a');
+          var i=0;
+          while(i<alist.length) {
+            alist[i].style.color='powderblue';
+            i += 1;
+          }
+        } else {
+          target.style.backgroundColor='white';
+          target.style.color='black';
+          this.value='night';
+
+          var alist=document.querySelectorAll('a');
+          var i=0;
+          while(i<alist.length) {
+            alist[i].style.color='blue';
+            i += 1;
+          }
+        }
+    ">
+    <input id="night_day" type="button" value="night" onclick="
+      var target=document.querySelector('body');
+        if(this.value === 'night') {
+          target.style.backgroundColor='black';
+          target.style.color='white';
+          this.value='day';
+
+          var alist=document.querySelectorAll('a');
+          var i=0;
+          while(i<alist.length) {
+            alist[i].style.color='powderblue';
+            i += 1;
+          }
+        } else {
+          target.style.backgroundColor='white';
+          target.style.color='black';
+          this.value='night';
+
+          var alist=document.querySelectorAll('a');
+          var i=0;
+          while(i<alist.length) {
+            alist[i].style.color='blue';
+            i += 1;
+          }
+        }
+    ">
   <div id="article">
    <h2>WEB</h2>
     <p>The <b>W</b>orld <b>W</b>ide <b>W</b>eb (abbreviated WWW or the Web) is an information space where documents and other web resources are identified by Uniform Resource Locators (URLs), interlinked by hypertext links, and can be accessed via the Internet.[1] English scientist Tim Berners-Lee invented the World Wide Web in 1989. He wrote the first web browser computer program in 1990 while employed at CERN in Switzerland.[2][3] The Web browser was released outside of CERN in 1991, first to other research institutions starting in January 1991 and to the general public on the Internet in August 1991.
