@@ -30,7 +30,7 @@
     <li><a href="3.javascript" style="color:lightgrey;">JavaScript</a></li><br>
     <li><a href="4.java.html">Java</a></li><br>
     <li><a href="5.python.html">python</a></li><br>
-    <li><a href="6.Algorithm.html">Algorithm</a></li>
+    <li><a href="6.Algorithm.html">lgorithm</a></li>
   </ol>
   <div id="article">
   <h2>JavaScript</h2>
