@@ -26,7 +26,7 @@
   <div id="grid">
   <ol>
     <li><a href="1.html">HTML</a></li><br>
-    <li><a href="2.html">CSS</a></li><br>
+    <li><a href="2.css">CSS</a></li><br>
     <li><a href="3.javascript" style="color:lightgrey;">JavaScript</a></li><br>
     <li><a href="4.java.html">Java</a></li><br>
     <li><a href="5.python.html">python</a></li><br>
